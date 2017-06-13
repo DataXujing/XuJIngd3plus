@@ -1,0 +1,14 @@
+---
+title: "XuJIngd3plus"
+author: "徐静"
+date: "2017年6月13日"
+output: html_document
+---
+
+```{r,warning=FALSE} 
+library(XuJIngd3plus) 
+newdata <- data.frame( value = c(100,70,40,15,5,1), 
+                       name = c('alpha','beta','gamma','delta','epsilon','zeta'), 
+                       group = c('分组1','分组2','分组2','分组2','分组1','分组1') ) 
+XJtreemap(data = newdata) 
+```

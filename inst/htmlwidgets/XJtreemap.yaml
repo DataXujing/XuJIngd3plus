@@ -1,0 +1,9 @@
+# (uncomment to add a dependency)
+ dependencies:
+  - name: d3
+    version: 1.9.8
+    src: htmlwidgets/lib
+    script:
+      - d3.js
+      - d3plus.js
+#    stylesheet:
